@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promociones</title>
+    <!-- Agregar el Favicon -->
+    <link rel="icon" href="img/favicon.ico">
+</head>
+
+<body>
+    <!-- Imagen -->
+    <header>
+        <!-- Imagen -->
+        <img src="img/Header.jfif.png" alt="Image in Home" width="50%">
+        <nav>
+            <a href="index.html">Indice |</a>
+            <a href="#QuienesSomos">Quienes Somos |</a>
+            <a href="servicios.html">Servicios |</a>
+            <a href="Promociones.html">Promociones |</a>
+            <a href="Tarifas.html">Tarifas |</a>
+            <a href="contacto.html">Contactos</a>
+        </nav>
+    </header>
+
+  
+
+    <section>
+        <h1>Seccion Promociones</h1>
+      
+        <hr>
+        <h2>Si necesitas un presupuesto personalizado contactate con nosotros</h2>
+        <form action="">
+            <fieldset>
+                <legend>Datos Personales</legend>
+
+                <!-- Nombre -->
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre...">
+
+                <!-- Apellido -->
+                <label for="apellido">Apellido: </label>
+                <input type="text" name="apellido" id="apellido" size="10" maxlength="5" required>
+
+                <!-- DNI -->
+                <label for="dni">DNI: </label>
+                <input type="number">
+
+                <!-- Nro de trámite -->
+                <label for="nro_tramite">Número de trámite: </label>
+                <input type="password">
+
+                <!-- Hijos -->
+                <label for="hijos">Nro de Hijos (0 a 10): </label>
+                <input type="number" min="0" max="10">
+
+                <!-- Mail -->
+                <label for="mail">Mail: </label>
+                <input type="email">
+
+                <!-- Fecha de Nacimiento -->
+                <label for="fecnac">Fecha de Nacimiento: </label>
+                <input type="date" min="2023-01-01" max="2023-12-31">
+
+                <!-- Adjuntar imagen -->
+                <label for="foto">Adjuntar archivo: </label>
+                <input type="file">
+            </fieldset>
+
+            <br><br>
+
+            <fieldset>
+                <legend>Datos para la Inscripción: </legend>
+                <!-- Turno - Selección -->
+                <label for="turno" required>Seleccionar turno: </label>
+                <select name="turno" id="turno">
+                    <option value="vacio"></option>
+                    <option value="1">Mañana</option>
+                    <option value="2">Tarde</option>
+                    <option value="3">Vespertino</option>
+                    <option value="4">Noche</option>
+                </select>
+                <br>
+
+                <!-- Conocimientos Previos - Chekbox (selección múltiple) -->
+                <label for="conocimientos">Conocimientos Previos: </label>
+                <input type="checkbox">HTML
+                <input type="checkbox">CSS
+                <input type="checkbox">JS
+                <br>
+
+                <!-- Interés - Radio (única selección) -->
+                <label for="interes">Tengo interés en...</label>
+                <input type="radio" name="interes" id="A">FullStack Python
+                <input type="radio" name="interes" id="B">FullStack JAVA
+                <input type="radio" name="interes" id="C">FullStack PHP
+                <input type="radio" name="interes" id="D">Diseño UX/UI
+            </fieldset>
+
+            <br><br>
+            <!-- Comentarios -->
+            <label for="comentarios">Deje aquí sus comentarios: </label>
+            <br>
+            <textarea name="comentarios" id="comentarios" cols="55" rows="10"></textarea>
+
+            <br><br>
+
+            <!-- Botones -->
+            <input type="submit" value="Enviar Formulario">
+            <input type="reset" value="Borrar">
+
+
+        </form>
+
+     
+        <hr>
+        
+
+    </section>
+
+
+
+</body>
+
+<footer>
+       
+
+    <p>Derechos de autor © 2023. Grupo 20 Codo a Codo.</p>
+    <p>Contáctanos en info@misitioweb.com</p>
+ 
+</footer>
+
+</html>

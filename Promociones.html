@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Promociones</title>
+
+        <!-- CSS externo -->
+<link rel="stylesheet" href="CSS/estilos.css">
+
     <!-- Agregar el Favicon -->
     <link rel="icon" href="img/favicon.ico">
 </head>
@@ -13,24 +17,25 @@
     <!-- Imagen -->
     <header>
         <!-- Imagen -->
-        <img src="img/Header.jfif.png" alt="Image in Home" width="50%">
+        <img src="img/Header.jfif.png" alt="Image in Home" width="100%">
         <nav>
             <a href="index.html">Indice |</a>
             <a href="#QuienesSomos">Quienes Somos |</a>
             <a href="servicios.html">Servicios |</a>
             <a href="Promociones.html">Promociones |</a>
+            <a href="QueHacer.html">Que hacer |</a>
             <a href="Tarifas.html">Tarifas |</a>
-            <a href="contacto.html">Contactos</a>
+            <a href="contacto.html">Contactos |</a>
         </nav>
     </header>
 
   
 
     <section>
-        <h1>Seccion Promociones</h1>
+        <h1>Promociones</h1>
       
         <hr>
-        <h2>Si necesitas un presupuesto personalizado contactate con nosotros</h2>
+        <h2>Si necesitas un presupuesto o promoción personalizada llena el siguiente formulario</h2>
         <form action="">
             <fieldset>
                 <legend>Datos Personales</legend>
@@ -73,29 +78,29 @@
             <fieldset>
                 <legend>Datos para la Inscripción: </legend>
                 <!-- Turno - Selección -->
-                <label for="turno" required>Seleccionar turno: </label>
+                <label for="turno" required>Seleccionar Motivo de viaje: </label>
                 <select name="turno" id="turno">
                     <option value="vacio"></option>
-                    <option value="1">Mañana</option>
-                    <option value="2">Tarde</option>
-                    <option value="3">Vespertino</option>
-                    <option value="4">Noche</option>
+                    <option value="1">Placer</option>
+                    <option value="2">Trabajo</option>
+                    <option value="3">Estudio</option>
+                    <option value="4">Residencia</option>
                 </select>
                 <br>
 
                 <!-- Conocimientos Previos - Chekbox (selección múltiple) -->
-                <label for="conocimientos">Conocimientos Previos: </label>
-                <input type="checkbox">HTML
-                <input type="checkbox">CSS
-                <input type="checkbox">JS
+                <label for="conocimientos">Tiempo de permanencia: </label>
+                <input type="checkbox">Dias
+                <input type="checkbox">Semanas
+                <input type="checkbox">Meses
                 <br>
 
                 <!-- Interés - Radio (única selección) -->
                 <label for="interes">Tengo interés en...</label>
-                <input type="radio" name="interes" id="A">FullStack Python
-                <input type="radio" name="interes" id="B">FullStack JAVA
-                <input type="radio" name="interes" id="C">FullStack PHP
-                <input type="radio" name="interes" id="D">Diseño UX/UI
+                <input type="radio" name="interes" id="A">Alojamiento
+                <input type="radio" name="interes" id="B">Excursiones
+                <input type="radio" name="interes" id="C">Gastronomía
+                <input type="radio" name="interes" id="D">Espectaculos
             </fieldset>
 
             <br><br>
